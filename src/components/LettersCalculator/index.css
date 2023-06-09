@@ -1,0 +1,53 @@
+/* Write your code here. */
+.app-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+
+  height: 100vh;
+}
+.input-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #fff;
+  color: #fff;
+}
+.label {
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.img {
+  height: 500px;
+  width: 700px;
+  padding-right: 30px;
+}
+.sub-con {
+  padding-left: 30px;
+}
+.head {
+  color: #fff;
+  font-family: 'Roboto';
+  width: 200px;
+}
+.count-letters {
+  background-color: #fff;
+  margin-top: 10px;
+  height: 40px;
+  outline: none;
+  border: 0px;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 700;
+  color: #1d976c;
+  cursor: pointer;
+}
